@@ -6,6 +6,36 @@
 	font-family: GAME;
 	src: url(fuentes/ka1.ttf);
 }
+@media only screen and (min-width: 535px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 915px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
 
 #encabezado{
     height:54px;
@@ -15,7 +45,7 @@
     position: fixed;
     font-size: 30px;
     margin-top: 0px;
-    top: 0px;	
+    top: 0px;
     left: 0px;
 	box-shadow:1px 0px 12px 2px #49c5fffa;
 }
@@ -26,68 +56,71 @@ p{
 	font-family: Cicle;
 
 	background-image: url("imagenes/fondo.jpg");
-	min-height: 700px; 
+	min-height: 100vh;
 	/*background-attachment: fixed;*/
 	background-position: center;
 	background-repeat: no-repeat;
 	/*background-size:inherit ;*/
-	margin-top: 4.5%;
 	background-size: cover;
-	width: 100%;
+	width: 208vh;
 	height:  100%;
 }
 #redes{
 	width: -1px;
 	float: right;
 	margin-top: 15px;
-	margin-left: 50px;	
+	margin-left: 50px;
     margin-right: 17px;
 }
+#menu{
+	width: 100%;
+	float: right;
+}
 nav{
-	font-family: Cicle;
-	text-decoration-style:none ;
 	box-shadow:1px 0px 12px 2px #49c5fffa;
 	border-radius: 20px 20px 20px 20px;
 	background-image: radial-gradient(rgb(255, 249, 249) 0.0%, rgb(255, 251, 251) 0.5%, #d1ebf129 99%);
-    width: 15%;
-	height: 225px;
+	font-family: Cicle;
+	text-decoration-style:none ;
+  width: 25vh;
+	height: 27vh;
 	position: fixed;
-    left: 77%;
-	top: 12%;
-	right: 2%;
-	list-style:none;
-	margin-left: 5.9%;
+  left: 82%;
+	top: 14vh;
+
 }
 nav li a{
 	font-family: Cicle;
 	font-style: normal;
 	font-family: Cicle;
 	color:black;
-    font-size: 30px;
+  font-size: 2.5vh;
 	list-style-type:none;
 	text-transform: uppercase;
 	text-align:center;
-	width: 160px;
+	width: 100vh;
+	margin-top: 150px;
+
 }
 nav li a:hover{
 	font-family: Cicle;
 	color:#129564fa;
-    text-shadow: 8px 6px 15px #49c5fffa ;
-    font-size: 30px;
+  text-shadow: 8px 6px 15px #49c5fffa ;
+  font-size: 2.5vh;
 	text-align:center;
-	width: 160px;
+	width: 100%;
 }
 
 nav ul{
-	padding-left: 21px;
-	height: 100%;
-    margin-top: 15px;
-    margin-bottom: 0px;
+	height: 10vh;
+  margin-bottom: 0px;
+	padding-left: 0px;
 	list-style-type:none;
+	text-align :center;
 }
 #Introduccion{
 	font-family: Cicle;
-	font-size: 35px;
+	font-size: 5vh;
 	color:black;
 	text-align:center;
 	width: 70%;
@@ -96,9 +129,9 @@ nav ul{
 }
 #imgIntroduccion{
 	margin-bottom: 90px;
-    width: 131%;
-    margin-left: -122px;
-    margin-top: 90px;
+    width: 215vh;
+    margin-left: -37vh;
+    margin-top: 100vh;
 }
 /*------------CV---------------------------*/
 .PortadaCV {
@@ -183,7 +216,7 @@ nav ul{
 	font-size: 30px;
 	text-align: left;
 	margin-bottom:15px ;
-	height: 112%;	
+	height: 112%;
 }
 
 /*----------------------CV---------------------------*/
@@ -196,7 +229,7 @@ nav ul{
 	background-image: url("imagenes/nube.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height: 700px; 
+	min-height: 700px;
 	/*background-attachment: fixed;*/
 	background-position: center;
 	background-repeat: no-repeat;
